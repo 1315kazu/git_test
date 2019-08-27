@@ -1,0 +1,23 @@
+Git　の練習
+.git init ローカルリポジトリの新規作成
+          Gitで管理したいファイルに移動し,git initする
+.ls -a    隠しファイルを含め見れる
+.ls -a .git/  .gitの中身を見る
+
+既存プロジェクトをGitで管理
+.git init 既存のファイルに移動、git　initする
+
+一連の流れ
+ファイルをステージングエリアに追加
+.git add （対象ファイル名）
+.git commit ステージングエリアに上げたらコミットする
+　git(vim)の操作
+　1.半角英数字に切替 ➡️　i （書き込み出来る）
+　2.コミットメーセージを入力
+　3.esc　ボタンを押す
+　4.:wq エンター　でvim終了
+
+Git Hubにプッシュ
+ブラウザでGit Hubを開く　
+＋ボタン　➡️　New　repository　をクリック
+Repository name　にGit Hubで管理する　ファルダ名を入力
